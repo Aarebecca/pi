@@ -1,0 +1,56 @@
+packages/ai/catalog/providers/ant-ling.ts
+  s_b7c792ec806670::t_b6f2d771d8d673 52
+  s_b7c792ec806670::t_debec365ef0c81 44
+  s_b7c792ec806670::t_6fa59d9cf05653 47
+  s_b7c792ec806670::t_dbdf76d7e6c9f7 4
+  s_b7c792ec806670::t_f6429988d64708 5-7
+  s_b7c792ec806670::t_c66dc37bbe45d2 41-43
+  s_b7c792ec806670::t_682087329cfcf3 45-46
+  s_b7c792ec806670::t_dc88ab51990267 48-51
+  s_b7c792ec806670::t_ea45c3c05b25e6 53-55
+packages/ai/src/api/openai-completions.ts
+  s_f1f3609b16ddee::t_af6b83e42a51ca 1654-1660
+  s_f1f3609b16ddee::t_03044f01df197a 1653
+packages/ai/README.md
+  s_f1f3609b16ddee::t_53b95ef89abab1 1468
+packages/ai/src/providers/compat-schema.ts
+  s_f1f3609b16ddee::t_144a4310748e98 279
+packages/ai/test/stream.test.ts
+  s_b7c792ec806670::t_2bc1fb30fd718f 1357-1359
+  s_b7c792ec806670::t_7318d05b8e4d23 1339
+  s_b7c792ec806670::t_65ae35b064d26e 1340
+  s_b7c792ec806670::t_700bd62bf266e3 1355-1356
+packages/coding-agent/docs/models-configuration.md
+  s_f1f3609b16ddee::t_7700f519c1e36d 125
+packages/ai/CHANGELOG.md
+  s_f1f3609b16ddee::t_16e3218bf03c80 12
+  s_b7c792ec806670::t_d8db07af8d7607 8-11
+  s_b7c792ec806670::t_20f2fa9dd0c157 5-7
+  s_f1f3609b16ddee::t_74b8f98170c905 13
+packages/coding-agent/schemas/models.schema.json
+  s_f1f3609b16ddee::t_7700f519c1e36d 614
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "83741215b200ab288e8fb5a1b3624d622f803a22",
+  "prompts": {},
+  "sessions": {
+    "s_b7c792ec806670": {
+      "agent_id": {
+        "tool": "codefuse",
+        "id": "96503398-4cbc-4ba7-941d-339bd2b4e7ee",
+        "model": "codefuse_official_channel/GLM-5.3"
+      },
+      "human_author": "厨神 <yangtao.yangtao@antgroup.com>"
+    },
+    "s_f1f3609b16ddee": {
+      "agent_id": {
+        "tool": "codefuse",
+        "id": "22fac893-86cd-4931-a5e7-704f1948e67f",
+        "model": "codefuse_official_channel/GLM-5.3"
+      },
+      "human_author": "厨神 <yangtao.yangtao@antgroup.com>"
+    }
+  }
+}
